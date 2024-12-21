@@ -1,5 +1,5 @@
 # Learning-JavaScript
-Learning JavaScript in Youth_It
+Learning JavaScript in Youth_It...
 
 # Use of array method
 
@@ -121,10 +121,4 @@ In JavaScript, an object is a collection of key-value pairs. It is a dynamic dat
 
 In JavaScript, an object is a collection of key-value pairs. It is a dynamic data structure that allows you to store and retrieve data in a structured way.
 
-# Arrays and Objects in JavaScript
 
-In JavaScript, arrays and objects are two of the most common data structures. Arrays are used to store a collection of values, while objects are used to store key-value pairs.
-
-Arrays are used to store a collection of values, while objects are used to store a collection of key-value pairs.
-
-In JavaScript, arrays and objects are two of the most common data structures. Arrays are used to store a collection of values, while objects are used to store key-value pairs.
