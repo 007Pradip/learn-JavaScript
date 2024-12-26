@@ -7,14 +7,14 @@
 // console.log(remaining);
 
 
-//rest operator in object '...' denote rest operator
-// let obj1={
-//     names:"pradip",
-//     age:22,
-//     married:false,
-// }
-// let {names,...remaining}=obj1;
-// console.log(remaining);
+/*rest operator in object '...' denote rest operator*/
+let obj1={
+    names:"pradip",
+    age:22,
+    married:false,
+}
+let {names,...remaining}=obj1;
+console.log(remaining);
 
 
 //rest operator in function '...' denote rest operator
