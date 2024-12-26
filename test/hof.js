@@ -33,6 +33,5 @@ function fetchData(callback) {
   function processData() {
     setTimeout(()=>{console.log("Processing data...")},2000)
 }
-  
-  fetchData(processData);
+fetchData(processData);
   
