@@ -21,3 +21,18 @@
 
 // console.log(hof(1,2,mul));
 
+//inbuild function set time out function
+function fetchData(callback) {
+    console.log("Fetching data...");
+    setTimeout(() => {
+      console.log("Data fetched!");
+      callback();
+    }, 2000);
+  }
+  
+  function processData() {
+    setTimeout(()=>{console.log("Processing data...")},2000)
+}
+  
+  fetchData(processData);
+  
