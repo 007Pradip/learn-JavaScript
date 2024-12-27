@@ -15,8 +15,11 @@
 "The book <title> by <author> was published in <year>. It falls under <genre>." */
 //creating function of book details
 function booksdetails(book){
-   const {title, author, price, genre, year} = book;
-   return `The book name is ${title} written by author ${author} and genre is ${genre} and price is Rs. ${price}. It was published in ${year}.`;
+   //const {title, author, price, genre, year} = book;
+
+   //either use above line or below line
+   //but while using above we don't need to use book.title, book.author, book.price, book.genre, book.year
+   return `The book name is ${book.title} written by author ${book.author} and genre is ${book.genre} and price is Rs. ${book.price}. It was published in ${book.year}.`;
 }
 
 //creating object   
@@ -35,7 +38,17 @@ let book1 = {
     }
 };
 
+let book3 = {
+    title: 'Harry Potter',
+    author: 'J.K Rowling',
+    genre: 'fantasy',
+    price: 500,
+    year: 2006,
+};
+
+//calling function
 console.log(booksdetails(book1));
+console.log(booksdetails(book3));
 console.log(booksdetails(book1.book2));
 
 
