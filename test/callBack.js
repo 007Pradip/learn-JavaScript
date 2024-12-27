@@ -49,3 +49,16 @@ setTimeout(function(){
     console.log("This is shown after 3 seconds");
 }, 1000);
 console.log("End");
+
+//CallBack function ......?
+/*A callback function is a function that is passed as an argument to another function, to be “called back” at a later time. A callback function can run after another function has finished. 
+
+In other way, A callBack function is a function passed into another function as an argument, which is then invoked inside the outer function to complete an action.
+*/
+
+function loadScript(src, callback) {
+    let script = document.createElement('script');
+    script.src = src;
+    script.onload = () => callback(script);
+    document.body.appendChild(script);
+}
