@@ -56,3 +56,30 @@ function g(h){
 g(function(){
     console.log('I am anonymous function');
 })
+
+//-----------------------------Callback Function--------------------------------
+// Callback function is a function that is passed as argument to another function
+// It is called when the event occurs
+// It is used in async programming
+// It is used in event handling
+// It is used in AJAX
+
+// Example of Callback function
+function i(j){
+    console.log('This is i function');
+    j();
+}
+
+i(function(){
+    console.log('This is callback function');
+})
+
+// Example of Callback function with argument
+function k(l){
+    console.log('This is k function');
+    l('This is argument of callback function');
+}
+
+k(function(m){
+    console.log(m);
+})
