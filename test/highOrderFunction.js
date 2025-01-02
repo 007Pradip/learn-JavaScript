@@ -65,14 +65,17 @@ g(function(){
 // It is used in AJAX
 
 // Example of Callback function
-function i(j){
+function i(j){ // 'i' is higher order function
     console.log('This is i function');
     j();
 }
 
-i(function(){
-    console.log('This is callback function');
-})
+i(
+    // callback function
+    function(){
+        console.log('This is callback function');
+    }
+)
 
 // Example of Callback function with argument
 function k(l){
